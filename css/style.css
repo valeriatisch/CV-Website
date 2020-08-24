@@ -157,7 +157,7 @@ header nav ul li:hover {
 
 #projectcontainer {
     display: block;
-    width: 900px;
+    width: 1200px;
     margin: 0 auto 0 auto;
 }
 
@@ -172,8 +172,8 @@ header nav ul li:hover {
 }
 
 #projectcontainer img {
-    width: 280px;
-    height: 180px;
+    width: 350px;
+    height: 250px;
     border-radius: 5px;
 }
 
@@ -399,7 +399,7 @@ footer p {
     }
 
     .menu:hover {
-        opacity: 0.5;
+        opacity: 0.7;
     }
 
     header nav ul {
@@ -423,6 +423,6 @@ footer p {
     }
 
     header nav ul li:hover {
-        background-color: #f7eeea;
+        opacity: 0.7;
     }
 }
