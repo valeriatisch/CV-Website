@@ -1,0 +1,111 @@
+<!--TODO scroll nach oben button-->
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+    <title>Valeria Tisch | Lebenslauf</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<!-----------------HEADER----------------->
+    <header>
+        <nav id="main-nav">
+            <i><img src="img/menu.png" alt="menu" class="menu"></i>
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#cv"><li>Lebenslauf</li></a>
+                <a href="#projects"><li>Projekte</li></a>
+                <a href="#contact"><li>Kontakt</li></a>
+            </ul>
+        </nav>
+    </header>
+
+<!-----------------HOME----------------->
+<section id="home">
+    <img id="profileimage" src="https://via.placeholder.com/500x500" alt="Profilbild">
+    <h1>Valeria Tisch</h1>
+    <h2 id="infobsc"> Informatik B.Sc.</h2>
+    <a href="#cv" class="pfeila">
+        <img src="img/pfeilhell.png" alt="Pfeil" class="pfeilimage">
+    </a>
+</section>
+
+<!-----------------CV----------------->
+
+<section id="cv">
+    <h3>Lebenslauf</h3>
+    <hr>
+    <!-----------------ABOUT ME----------------->
+    <h4>//TODO Details Info</h4>
+    <!-----------------TIMELINE----------------->
+    <h4>//TODO Timeline 1. Berufserfahrung 2. Bildung 3. Engagenment</h4>
+    <!-----------------SKILLS----------------->
+    <h4>//TODO Skill Set</h4>
+    <a href="#projects" class="pfeila">
+        <img src="img/pfeildunkel.png" alt="Pfeil" class="pfeilimage">
+    </a>
+</section>
+
+<!-----------------PROJECTS----------------->
+<section id="projects">
+    <h3>Projekte</h3>
+    <hr>
+    <div id="projectcontainer">
+        <ul>
+            <li><a href=""><img src="https://via.placeholder.com/280x180" alt="Projekt_01"></a></li>
+            <li><a href=""><img src="https://via.placeholder.com/280x180" alt="Projekt_02"></a></li>
+            <li><a href=""><img src="https://via.placeholder.com/280x180" alt="Projekt_03"></a></li>
+        </ul>
+    </div>
+    <div id="fpfeil">
+    <a href="#contact" class="pfeila">
+        <img src="img/pfeildunkel.png" alt="Pfeil" class="pfeilimage">
+    </a>
+    </div>
+</section>
+
+<!-----------------CONTACT----------------->
+<section id="contact">
+    <h3>Kontakt</h3>
+    <hr>
+    <form action="https://formspree.io/v.tisch@campus.tu-berlin.de" method="POST">
+        <label>
+            <input class="input_text email" name="email" type="email" tabindex="1" placeholder="E-Mail"><br>
+        </label>
+        <label>
+            <input class="input_text subject" name="subject" type="text" tabindex="1" placeholder="Betreff"><br>
+        </label>
+        <label>
+            <textarea class="input_text message" name="message" tabindex="3" placeholder="Nachricht"></textarea><br>
+        </label>
+        <button class="sendbutton" type="submit">Senden </button>
+        <div class="status">
+
+        </div>
+    </form>
+</section>
+
+<!-----------------FOOTER----------------->
+<footer>
+    <p>
+        &copy; 2020 Valeria Tisch
+    </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="js/mobile-menu.js"></script>
+
+</body>
+</html>
