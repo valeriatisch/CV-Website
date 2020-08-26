@@ -21,7 +21,7 @@ $(document).ready(function () {
             console.log("Subject is valid")
         } else {
             event.preventDefault()
-            statusElm.append('<div>Dein Betreff ist leider zu kurz :(</div>')
+            statusElm.append('<div>Dein Betreff ist leider zu kurz :/</div>')
         }
 
         if(message.length >= 15) {
