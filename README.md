@@ -19,4 +19,4 @@ Nutze und verbessere gerne den Code, um eine responsive One-Page-Webseite für d
 
 * Um die Webseite unter Port 8000 zu starten, verwende das Befehl:
   ```http-server . -p 8000```
-* Nun kannst du die Seite nun unter http://localhost:8000/ aufrufen.
+* Nun kannst du die Seite unter http://localhost:8000/ aufrufen.
